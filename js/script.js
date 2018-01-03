@@ -5,8 +5,9 @@
 // CREATE THE FUNCTIONS BELOW
 
 // Document Ready Function. All of your jQuery should go in here. 
-$( document ).ready(function() {
-  
+$("#code").click(function() {
+  var text = $("#name").val();
+  alert(text);
 
 
 
