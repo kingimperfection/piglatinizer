@@ -5,24 +5,36 @@
 // CREATE THE FUNCTIONS BELOW
 
 // Document Ready Function. All of your jQuery should go in here. 
-$("#code").click(function() {
+$( document).ready (function() {
+function Latinize(){
   var text = $("#name").val();
-  alert(text);
-
-
-
-});
+  alert(sentencetopiglatin(text));
+}
 
 
 // Create the wordToPigLatin function that takes a word as a parameter and returns a transfromed word. 
 
 
 
-
-
+//vowel= a, e i o u y
 
 // Create the sentenceToPigLatin function that takes a sentence as a parameter
 	//Loops through all the words in the sentence and transforms each word
 	//It should return a transfromed sentance
+	
+function sentencetopiglatin(sentence){
+    if ("#name[0]"=== a,e,i,o,u,y)
+    {return(sentence + "way")}
+    else { 
+        sentence.splice (1,sentence.length -1);
+        $("sentence").append("#name[0]");
+        
+    }
+    
+    ;}
+    
+
+  
 
 
+console.log
